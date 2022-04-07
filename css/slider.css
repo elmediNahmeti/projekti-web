@@ -1,0 +1,34 @@
+.slide {
+    display: none;
+  }
+  .slidshow-container {
+    position: relative;
+    width: 80%;
+    margin: auto;
+  }
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    opacity: 70%;
+    transition: 0.3s ease;
+    user-select: none;
+  }
+  .next {
+    right:0%;
+  }
+  .prev:hover,
+  .next:hover {
+    background-color: #7c8c3c;
+  }
+  .sliderImages {
+    width: 100%;
+    border-radius: 20px;
+  }
+  

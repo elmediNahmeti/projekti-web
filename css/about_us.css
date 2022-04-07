@@ -1,0 +1,35 @@
+#about_us___upper{
+    display: flex;
+    margin: auto;
+    flex-flow: column wrap;
+    color: white;
+    background-color: #7C8C3C;
+    align-items: center;
+    padding: 50px;
+    border-radius: 50px;
+}
+.about_us___Titulli{
+    background: #7C8C3C;
+    font-size: 50px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.about_us___Pershkrimi{
+    background: #7C8C3C;
+    width: 90%;
+    font-size: 20px;
+    text-align: center;
+}
+#about_us___upper h3 {
+    background: #7C8C3C;
+    margin-bottom: 30px;
+    text-align: center;
+}
+#about_us___lower{
+    
+    margin-top: 50px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    line-height: 1.5;
+}

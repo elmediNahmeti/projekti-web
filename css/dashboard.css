@@ -1,0 +1,124 @@
+*{
+    padding: 0 ;
+    margin: 0;
+}
+body{
+    
+    padding: 0;
+    background-color: #24252A;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.back-button{
+    height: 200px;
+    display: flex;
+    align-items: flex-start;
+}
+#img_produkti_dashboard{
+    width: 200px;
+    height: 200px
+}
+.hidden{
+    display:none;   
+}
+#btn-back{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 800;
+    margin-top: 2%;
+    margin-left: 2%;
+    background-color:#7C8C3C ;
+    padding: 10px;
+    border-radius: 50px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.btn{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 800;
+    margin-top: 2%;
+    margin-left: 2%;
+    background-color:#7C8C3C ;
+    padding: 10px;
+    border-radius: 50px;
+}
+.input{
+    background-color:#b4ce4d ;
+    border-radius: 50px;
+    padding: 10%;
+}
+#btn-back:hover{
+    background-color: #57612e;
+}
+.tables{
+    
+    margin: 0 auto;
+    width: 50%;
+    margin-top: 50px;
+    
+}
+.btn_dashboard_container{
+    display: flex;
+    justify-content: center;
+}
+
+.content-table-users{
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.content-table-users thead tr{
+    background-color: #7C8C3C;
+    color: white;
+    text-align: left;
+    font-weight: bold;
+}
+.content-table-users th,
+.content-table-users td{
+padding: 12px 15px;
+}
+.content-table-users tbody tr{
+    
+    border-bottom: 1px solid lightgrey;
+}
+.content-table-users tbody tr:nth-of-type(even){
+    background-color: #494949;
+}
+.content-table-users tbody tr:last-child{
+    border-bottom: 1px solid #7C8C3C;
+    ;
+}
+.table-messages{
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.table-messages thead tr{
+    background-color: #7C8C3C;
+    color: white;
+    text-align: left;
+    font-weight: bold;
+}
+.table-messages th,
+.table-messages td{
+padding: 12px 15px;
+}
+.table-messages tbody tr{
+    border-bottom: 1px solid lightgrey;
+}
+.table-messages tbody tr:nth-of-type(even){
+    background-color: #494949;
+}
+.table-messages tbody tr:last-child{
+    border-bottom: 1px solid #7C8C3C;
+    ;
+}

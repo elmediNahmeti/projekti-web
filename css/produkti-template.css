@@ -1,0 +1,65 @@
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+  }
+  .Produkt_container {
+    display: flex;
+    margin: 0 auto;
+    width: 80%;
+    padding: 15px;
+  }
+  .img_container {
+      width: 55%;
+      display:flex;
+      justify-content:center;
+  }
+  
+  .info_container{
+      width: 45%;
+      display:flex;
+      margin-top: 60px;
+      justify-content:space-between;
+      flex-direction: column;
+      
+  }
+  
+  #produkt_img{
+      border-radius: 20px;
+      width: 70%;
+  }
+  
+  #emri_produktit{
+      font-weight: 700;
+      font-size: 52px;
+      color: #80b482; 
+  }
+  #cmimi{
+      display: flex;
+      align-items: center;
+      font-size: 30px;
+      font-weight: 500;
+      color: #80b482;
+  }
+  .buy_buttons{
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
+  }
+  
+  .btn-product{
+      color: white;
+      text-decoration: none;
+      font-size: 30px;
+      font-weight: 800;
+      background-color: #7C8C3C;
+      padding: 10px;
+      border-radius: 50px;
+      width:50%;
+  
+  }
+  .btn-product:hover{
+      cursor: pointer;
+      background-color: #57612e;
+  }

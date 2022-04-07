@@ -1,0 +1,110 @@
+body{
+    
+    padding: 0;
+    background-color: #24252A;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.back-button{
+    height: 200px;
+    display: flex;
+    align-items: flex-start;
+}
+
+#btn-back{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 800;
+    margin-top: 2%;
+    margin-left: 2%;
+    background-color:#7C8C3C ;
+    padding: 10px;
+    border-radius: 50px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#btn-back:hover{
+    background-color: #57612e;
+}
+.container{
+    margin: 0 auto;
+    margin-top: 3%;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+.btn-container{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    color:white;
+}
+#btn-login{
+    width: 100%;
+    color: white;
+    background-color:#7C8C3C ;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: 750;
+    cursor: pointer;
+    border-radius: 10px;
+}
+#btn-login:hover{
+    background-color:#48502a ;
+}
+
+#btn-login:focus{
+    outline: 0;
+    
+}
+
+
+#login_submit{
+    
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color:#7C8C3C ;
+    padding: 10px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+#login_submit:hover{
+  
+    background-color:#647034 ;
+  
+}
+
+.forms{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    color: white;
+    align-items: center;
+}
+label{
+    margin-top: 5px;
+    font-size: 20px;
+}
+input:focus {
+    outline: 0;
+  }
+input{
+    color: black;
+    border: 0;
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 6px;
+    background-color: white;
+    margin-top: 10px;
+}
+
+
+.hidden{
+    display: none;
+}
+textarea{
+    height: 200px;
+    width: 100%;
+    border-radius: 25px;
+    padding: 10px;
+}

@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #24252A;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#logo{
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+nav{
+    display: flex;
+    width: 95%;
+    align-items: center;
+    flex-wrap: wrap;
+    height: fit-content;
+    padding: 20px;
+}
+.nav_links li {
+    list-style: none;
+    display: inline;
+    margin: 20px;
+}
+.nav_links li a{
+    color: white;
+    text-decoration: none;
+    margin-top: 10px;
+    font-size: 22px;
+    font-weight: 800;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.nav_links li a:hover{
+    color: #7C8C3C;
+}
+.navRight {
+    margin-left: auto;    
+}
+.nav_buttons li{
+    list-style-type: none;
+    display: inline;
+    margin: 20px;
+}
+.nav_buttons li a{
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 800;
+    background-color:#7C8C3C ;
+    padding: 10px;
+    border-radius: 50px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.nav_buttons li a:hover{
+    background-color: #57612e;
+}
+#btn_kyqu{
+    padding: 10px 50px 10px  50px;
+}
+@media only screen and (max-width:910px){
+nav{
+    flex-direction: column;
+    align-items: center;
+}
+.navLeft{
+    margin-top: 10px;
+    flex-direction: row;
+}
+.nav_links{
+    display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-size: 10px;
+}
+#logo{
+    padding: 10px;
+    margin-top: 0;
+}
+
+.navRight{
+    margin-right: 0;
+    margin-top: 0;
+}
+}
+@media only screen and (max-width:771px){
+    .nav_links{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .navRight{
+        margin: 0 auto;
+        margin-top: 5px;
+    }
+}
+
+    
+
+@media only screen and (max-width:425px){
+    .nav_buttons{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .nav_buttons li a{
+        margin-top: 100px;
+    }
+    .navRight{
+        margin: 0 auto;
+    }
+
+}
